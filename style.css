@@ -1,8 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap');
+
 body{
     background-color:black;
+    color:white;
+    font-family: 'Noto Sans Devanagari', sans-serif;
 
 }
 
 .navbar{
     background-color:#3a3a3a;
+}
+
+nav{
+    width:100%;
+    height: auto;
+    background-color: #609561;
+
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+}
+
+.nav-item{
+    text-align: center;
+    color:white;
+    border: 1px solid white;
+    padding:20px;
+
+    width:200px;
+
+}
+
+
+
+/* Main body */
+main{
+    max-width:1200px;
+    margin:0 20%
+}
+#first-name{
+    opacity:1;
+    transition: opacity 3s ease;
+}
+@media only screen and (max-width: 768px){
+    /*  */
 }

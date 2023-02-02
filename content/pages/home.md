@@ -1,5 +1,5 @@
 ---
-title: "Tina Cloud Starter"
+title: Kavi Mathur
 blocks:
   - headline: Welcome to the Tina Starter
     text: >
@@ -48,3 +48,4 @@ blocks:
     color: tint
     _template: features
 ---
+
